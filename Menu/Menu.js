@@ -3,11 +3,11 @@ const toggleMenu = (e) => {
   e.stopPropagation();
   menu.classList.toggle('menu--open');
   if (menu.classList.contains("menu--open")) {
-    TweenMax.to(menu, 1, {
+    TweenMax.to(menu, 0.3, {
       left: 0
     })
   } else {
-    TweenMax.to(menu, 1, {
+    TweenMax.to(menu, 0.3, {
       left: -350
     })
   };
