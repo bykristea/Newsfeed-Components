@@ -1,6 +1,6 @@
 const toggleMenu = (e) => {
   // Toggle the "menu--open" class on your menu refence.
-  e.stopPropagation();
+  // e.stopPropagation();
   menu.classList.toggle('menu--open');
   if (menu.classList.contains("menu--open")) {
     TweenMax.to(menu, 0.3, {
